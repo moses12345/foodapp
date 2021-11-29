@@ -1,0 +1,35 @@
+nav {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 2fr 9fr 1fr;
+  padding-left: 30px;
+  border-bottom: 2px solid rgb(231, 231, 231);
+}
+.section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.section input[type="text"] {
+  background: rgb(216, 216, 216);
+  border: none;
+  border-radius: 104px;
+  padding-left: 10px;
+  width: 70%;
+  height: 50%;
+  color: white;
+  font-weight: bolder;
+}
+.line {
+  background-color: rgb(116, 116, 116);
+  height: 3px;
+  width: 25px;
+  border: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.with-border {
+  border-right: 2px solid rgb(231, 231, 231);
+}
